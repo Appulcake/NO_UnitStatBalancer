@@ -1,0 +1,8 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+/.idea
+Blueprinter_2.0.1.dll
+NO_UnitStatBalancer.sln.DotSettings.user
