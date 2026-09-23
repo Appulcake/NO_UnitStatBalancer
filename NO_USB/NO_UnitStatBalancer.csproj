@@ -37,7 +37,6 @@
         <PackageReference Include="BepInEx.Analyzers" Version="1.*" PrivateAssets="all"/>
         <PackageReference Include="BepInEx.Core" Version="5.*"/>
         <PackageReference Include="BepInEx.PluginInfoProps" Version="2.*"/>
-        <PackageReference Include="Newtonsoft.Json" Version="13.0.4"/>
         <PackageReference Include="UnityEngine.Modules" Version="2022.3.62" IncludeAssets="compile"/>
     </ItemGroup>
 
@@ -48,6 +47,7 @@
         <Reference Include="Microsoft.CSharp"/>
         <Reference Include="Mirage" HintPath="$(Game_Path)\Mirage.dll" Private="False" Publicize="True"/>
         <Reference Include="Blueprinter_2.0.1" HintPath="$(SolutionDir)\Blueprinter_2.0.1.dll" Private="False" Publicize="True"/>
+        <Reference Include="Newtonsoft.Json" HintPath="$(Game_Path)\Newtonsoft.Json.dll" Private="False" Publicize="True"/>
     </ItemGroup>
 
     <ItemGroup Condition="'$(TargetFramework.TrimEnd(`0123456789`))' == 'net'">
